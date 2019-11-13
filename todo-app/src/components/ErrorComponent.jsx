@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React from 'react'
 
 function ErrorComponent() {
       return <div>This page is Extinct!!</div>

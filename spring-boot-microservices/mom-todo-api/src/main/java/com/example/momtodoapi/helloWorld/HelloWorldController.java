@@ -1,28 +1,29 @@
 package com.example.momtodoapi.helloWorld;
 
 
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @CrossOrigin(origins = "*")
+//@CrossOrigin(origins = "http://localhost:4200")
 @RestController
 public class HelloWorldController {
-    @GetMapping(path = "/hello-world")
+
+
+    @GetMapping(path = "/hello-mom")
     public String helloWorld() {
-        return "Hello World";
+        return "You are Beautiful! You will have a wonderful day!";
     }
 
-    @GetMapping(path = "/hello-world-bean")
+    @GetMapping(path = "/hello-mom-bean")
     public HelloWorldBean helloWorldBean() {
-        return new HelloWorldBean("Hello World");
+
+        return new HelloWorldBean("Hello Mom");
     }
 
     ///hello-world/path-variable/in28minutes
-    @GetMapping(path = "/hello-world/path-variable/{name}")
+    @GetMapping(path = "/hello-mom/path-variable/{name}")
     public HelloWorldBean helloWorldPathVariable(@PathVariable String name) {
         //throw new RuntimeException("Something went wrong");
-        return new HelloWorldBean(String.format("Hello World, %s", name));
+        return new HelloWorldBean(String.format("Hello Mom, %s", name));
     }
 }

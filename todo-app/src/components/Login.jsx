@@ -5,7 +5,7 @@ class Login extends Component {
   constructor(props) {
       super(props)
       this.state = {
-        username: 'in28minutes',
+        username: 'WilmaFlintstone',
         password: '',
         hasLoginFailed: false,
         showSuccessMessage: false
@@ -24,8 +24,8 @@ class Login extends Component {
   }
 
 loginClicked() {
-      //in28minutes,dummy
-      if(this.state.username==='in28minutes' && this.state.password==='dummy'){
+      //WilmaFlintstone,dummy
+      if(this.state.username==='WilmaFlintstone' && this.state.password==='dummy'){
           AuthenticationService.registerSuccessfulLogin(this.state.username,this.state.password)
           this.props.history.push(`/home/${this.state.username}`)
 
