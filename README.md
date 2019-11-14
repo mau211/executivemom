@@ -5,8 +5,8 @@ A todo list app for moms. Also promotes "be kind to yourself" philosophy by clic
 Creator:
 Mariela Chavez(@mau211)
 
-##Technologies Used
-======
+## Technologies Used
+===
 ###Backend
 1. First ordered list item
 2. Another item
