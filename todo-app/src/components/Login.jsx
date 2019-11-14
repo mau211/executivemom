@@ -59,7 +59,7 @@ loginClicked() {
       <h1>Login</h1>
         <div className="Container">
       {/*<ShowInvalidCredentials hasLoginFailed={this.state.hasLoginFailed}/>*/}
-      {this.state.hasLoginFailed && <div className="alert alert-warning">Invalid Credentials</div>}
+      {this.state.hasLoginFailed && <div className="alert alert-primary">Invalid Credentials</div>}
       {this.state.showSuccessMessage && <div>Login Sucessful</div>}
       {/*<ShowLoginSuccessMessage showSuccessMessage={this.state.showSuccessMessage}/>*/}
       username: <input type="text" name="username" value={this.state.username} onChange={this.handleChange} />

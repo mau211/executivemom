@@ -9,6 +9,7 @@ import HeaderCo from './HeaderCo.jsx'
 import FooterCo from './FooterCo.jsx'
 import Logout from './Logout.jsx'
 import WelcomeHome from './WelcomeHome.jsx'
+import TodoCo from './TodoCo.jsx'
 
 
 class TodoApp extends Component {
@@ -22,6 +23,7 @@ class TodoApp extends Component {
                         <Route path="/" exact component={Login}/>
                         <Route path="/login" exact component={Login}/>
                         <AuthenticatedRoute path="/home/:name" exact component={WelcomeHome} />
+                        <AuthenticatedRoute path="/todos/:id" component={TodoCo}/>
                         <AuthenticatedRoute path="/todos" exact component={ListTodo} />
                         <AuthenticatedRoute path="/logout" exact component={Logout} />
                         <Route component={ErrorComponent} />

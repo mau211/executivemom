@@ -10,20 +10,21 @@ class TodoDataService {
 
       }
 
-      // retrieveTodo(name, id) {
-      //     //console.log('executed service')
-      //     return axios.get(`${JPA_API_URL}/users/${name}/todos/${id}`);
-      // }
-      //
-      // deleteTodo(name, id) {
-      //     //console.log('executed service')
-      //     return axios.delete(`${JPA_API_URL}/users/${name}/todos/${id}`);
-      // }
-      //
-      // updateTodo(name, id, todo) {
-      //     //console.log('executed service')
-      //     return axios.put(`${JPA_API_URL}/users/${name}/todos/${id}`, todo);
-      // }
+      retrieveTodo(name, id) {
+          //console.log('executed service')
+          return axios.get(`http://localhost:8081/users/${name}/todos/${id}`);
+      }
+
+      deleteTodo(name, id) {
+          //console.log('executed service')
+          return axios.delete(`http://localhost:8081/users/${name}/todos/${id}`);
+          // return axios.delete(`${JPA_API_URL}/users/${name}/todos/${id}`);
+      }
+
+      updateTodo(name, id, todo) {
+          //console.log('executed service')
+          return axios.put(`http://localhost:8081/users/${name}/todos/${id}`, todo);
+      }
       //
       // createTodo(name, todo) {
       //     //console.log('executed service')

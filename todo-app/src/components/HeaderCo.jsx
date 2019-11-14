@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom'
 import AuthenticationService from './AuthenticationService.js'
 import { withRouter } from 'react-router';
 
+
 class HeaderCo extends Component {
   render(){
     const isUserLoggedIn = AuthenticationService.isUserLoggedIn();
@@ -11,9 +12,12 @@ class HeaderCo extends Component {
       <header>
                 <nav className="navbar navbar-expand-md bg-light">
               {/*<div className="navbar-brand">in28Minutes</div>*/}
-                  <div><Link className="navbar-brand" to="/home/in28minutes">Momager</Link></div>
+                  <div>
+                    <img className="logo" src={ require('./mompic.png')} alt="logo"/>
+                    <Link className="navbar-brand" to="/home/WilmaFlintstone">EXECUTIVE MOM</Link>
+                  </div>
                     <ul className="navbar-nav">
-                      {isUserLoggedIn && <li><Link className="nav-link" to="/home/in28minutes">Home</Link></li>}
+                      {isUserLoggedIn && <li><Link className="nav-link" to="/home/WilmaFlintstone">Home</Link></li>}
                       {isUserLoggedIn && <li><Link className="nav-link" to="/todos">Todos</Link></li>}
                     </ul>
                     <ul className="navbar-nav navbar-collapse justify-content-end">

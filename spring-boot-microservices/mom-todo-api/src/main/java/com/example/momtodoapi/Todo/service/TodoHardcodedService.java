@@ -1,6 +1,6 @@
 package com.example.momtodoapi.Todo.service;
 
-import com.example.momtodoapi.Todo.Todo;
+import com.example.momtodoapi.Todo.model.Todo;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

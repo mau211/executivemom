@@ -1,7 +1,7 @@
-package com.example.momtodoapi.Todo;
+package com.example.momtodoapi.Todo.controller;
 
 
-import com.example.momtodoapi.Todo.Todo;
+import com.example.momtodoapi.Todo.model.Todo;
 
 import java.net.URI;
 import java.util.List;

@@ -1,0 +1,38 @@
+.fas.fa-minus-circle {
+  color: #ef42f5; /*Pink */
+  font-size: 1.5em;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.fas.fa-edit{
+  color: #FB66F5; /*Pink */
+  font-size: 1.5em;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+
+.vibesbutton3 {
+  background-color: #ef42f5; /*Pink */
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 15px 15px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.vibesbutton3:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
