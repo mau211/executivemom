@@ -14,6 +14,8 @@ Mariela Chavez(@mau211)
 
 ### Front-end
 Bootstrap
-Axios, Formik, Moment
+Axios
+Formik
+sMoment
 React
 Amazon Web Services
