@@ -7,13 +7,13 @@ Mariela Chavez(@mau211)
 
 ## Technologies Used
 
-### Backend
-1. First ordered list item
-2. Another item
-Tech Stack
-Amazon Web Services
-Bootstrap
+### Back-end
+1. PostgreSQL
+2. Docker
+3. Spring Boot
 
-Material-UI
-PostgreSQL
+### Front-end
+Bootstrap
+Axios, Formik, Moment
 React
+Amazon Web Services
