@@ -17,13 +17,13 @@ public class HelloWorldController {
     @GetMapping(path = "/hello-mom-bean")
     public HelloWorldBean helloWorldBean() {
 
-        return new HelloWorldBean("Hello Mom");
+        return new HelloWorldBean("Hello Mom, you are strong and courageous!");
     }
 
-    ///hello-world/path-variable/in28minutes
+    ///hello-world/path-variable/WilmaFlintstone
     @GetMapping(path = "/hello-mom/path-variable/{name}")
-    public HelloWorldBean helloWorldPathVariable(@PathVariable String name) {
-        //throw new RuntimeException("Something went wrong");
+    public HelloWorldBean helloWorldPathVariable(@PathVariable String name ) {
+//        throw new RuntimeException("Something went wrong");
         return new HelloWorldBean(String.format("Hello Mom, %s", name));
     }
 }
