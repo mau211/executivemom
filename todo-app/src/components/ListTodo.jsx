@@ -18,6 +18,7 @@ class ListTodo extends Component {
     }
     this.deleteTodoClicked = this.deleteTodoClicked.bind(this)
     this.updateTodoClicked = this.updateTodoClicked.bind(this)
+    this.addTodoClicked = this.addTodoClicked.bind(this)
     this.refreshTodos = this.refreshTodos.bind(this)
   }
 
@@ -50,6 +51,11 @@ class ListTodo extends Component {
 
                }
            )
+   }
+
+   addTodoClicked() {
+    
+      this.props.history.push(`/todos/-1`)
    }
 
    updateTodoClicked(id) {

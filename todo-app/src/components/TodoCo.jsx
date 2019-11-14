@@ -19,13 +19,13 @@ class TodoCo extends Component {
         this.onSubmit = this.onSubmit.bind(this)
         this.validate = this.validate.bind(this)
 
-    }
+    }s
 
     componentDidMount() {
 
-        // if (this.state.id === -1) {
-        //     return
-        // }
+        if (this.state.id === -1) {
+            return
+        }
 
         let username = AuthenticationService.getLoggedInUserName()
 
@@ -56,11 +56,10 @@ class TodoCo extends Component {
     onSubmit(values) {
       console.log(values);
         let username = AuthenticationService.getLoggedInUserName()
-
         let todo = {
-            id: this.state.id,
-            description: values.description,
-            targetDate: values.targetDate
+        id: this.state.id,
+        description: values.description,
+        targetDate: values.targetDate
         }
 
         if (this.state.id === -1) {

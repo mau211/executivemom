@@ -25,13 +25,11 @@ class TodoDataService {
           //console.log('executed service')
           return axios.put(`http://localhost:8081/users/${name}/todos/${id}`, todo);
       }
-      //
-      // createTodo(name, todo) {
-      //     //console.log('executed service')
-      //     return axios.post(`${JPA_API_URL}/users/${name}/todos/`, todo);
-      // }
 
-
+      createTodo(name, todo) {
+          //console.log('executed service')
+          return axios.post(`http://localhost:8081/users/${name}/todos/`);
+      }
 
 }
 
