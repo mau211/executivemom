@@ -6,9 +6,8 @@ Creator:
 Mariela Chavez(@mau211)
 
 ## Technologies Used
----
 
-###Backend
+### Backend
 1. First ordered list item
 2. Another item
 Tech Stack
