@@ -6,7 +6,8 @@ Creator:
 Mariela Chavez(@mau211)
 
 ## Technologies Used
-===
+---
+
 ###Backend
 1. First ordered list item
 2. Another item
