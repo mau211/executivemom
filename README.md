@@ -23,7 +23,30 @@ Mariela Chavez(@mau211)
 ## General Approach
 Wireframes helped me get an initial Approach.
 I started with the Front end because I am a visual learner it helped to see things begin to come to life.
-I built a skeleton and did not implement the styling. I had a generic look.
+I built a skeleton with components and did not implement any styling at great lengths. I had a generic look.
 
 I started the backend microservices one step at a time. From Eureka, Zuul-gateway, to my project api.
 I built my package and was ready to move on to front end and connect the backend to the frontend.
+
+I used axios for my api calls and was successfully calling from my backend.
+Once I saw my calls coming in I felt confident styling.
+I used several cool websites for color like colorbox.io which gives you a shades of any given color.
+I also was conceptualizing ideas along the way and rebranded my concept.
+
+I was then in a good place to deploy to AWS.
+
+## Unsolved Problems
+1. Signup - I need to implement on the front end.
+2. Good Vibes Button - I would like to go through an iterable list of positive messages for future state.
+3. Styling - I would also like to spend some time styling. I used bootstrap which restricted styling.
+4. Logo - Redesign logo during downtime.
+
+## Deliverables
+
+| Monday 11/04 | Tuesday 11/05 | Wednesday 11/06 | Thursday 11/07 | Friday 11/08 |
+|--------------|---------------|-----------------|----------------|--------------|
+| Front-end    | Front-end     | Front-end       | Front-end      | Front-end    |
+
+| Monday 11/11 | Tuesday 11/12 | Wednesday 11/13 | Thursday 11/14 | Friday 11/15 |
+|--------------|---------------|-----------------|----------------|--------------|
+| Back-end     | Back-end      | Back-end        | Back-end       | Back-end     |
