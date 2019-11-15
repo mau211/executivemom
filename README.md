@@ -52,15 +52,15 @@ I was then in a good place to deploy to AWS.
 | Back-end     | Back-end      | Back-end        | Back-end       | Back-end     |
 
 ## Dependencies
-Axios
++ Axios
 https://www.npmjs.com/package/axios
-Formik
++ Formik
 https://www.npmjs.com/package/formik
-Moment
++ Moment
 https://www.npmjs.com/package/moment
-Bootstrap
++ Bootstrap
 https://www.npmjs.com/package/bootstrap
-React
++ React
 https://www.npmjs.com/package/react
 
 ## User Stories
