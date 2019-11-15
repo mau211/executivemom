@@ -52,7 +52,16 @@ I was then in a good place to deploy to AWS.
 | Back-end     | Back-end      | Back-end        | Back-end       | Back-end     |
 
 ## Dependencies
+Axios
 https://www.npmjs.com/package/axios
+Formik
+https://www.npmjs.com/package/formik
+Moment
+https://www.npmjs.com/package/moment
+Bootstrap
+https://www.npmjs.com/package/bootstrap
+React
+https://www.npmjs.com/package/react
 
 ## User Stories
 * As User, I want Sign up to create todo lists.
