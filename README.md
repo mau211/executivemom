@@ -3,7 +3,7 @@
 A todo list app for moms. Also promotes "be kind to yourself" philosophy by click to display positive message.
 
 Creator:
-Mariela Chavez(@mau211)
+Mariela Chavez
 
 ## Technologies Used
 
@@ -70,3 +70,7 @@ https://www.npmjs.com/package/react
 * As User, I want to update todo tasks and change dates.
 * As User, I want to delete a todo tasks.
 * As User, I want to get inspirational comments.
+
+## Wireframes
+Box.com
+https://app.box.com/s/kdiegw3n3t2bsgg2dt7fi5iz5weetris
