@@ -13,9 +13,9 @@ Mariela Chavez(@mau211)
 3. Spring Boot
 
 ### Front-end
-Bootstrap
-Axios
-Formik
-sMoment
-React
-Amazon Web Services
+1. Bootstrap
+2. Axios
+3. Formik
+4. Moment
+5. React
+6. Amazon Web Services
