@@ -50,3 +50,14 @@ I was then in a good place to deploy to AWS.
 | Monday 11/11 | Tuesday 11/12 | Wednesday 11/13 | Thursday 11/14 | Friday 11/15 |
 |--------------|---------------|-----------------|----------------|--------------|
 | Back-end     | Back-end      | Back-end        | Back-end       | Back-end     |
+
+## Dependencies
+https://www.npmjs.com/package/axios
+
+## User Stories
+* As User, I want Sign up to create todo lists.
+* As User, I want Login so that manage my todo lists.
+* As User, I want to create todo tasks and access them in my todos.
+* As User, I want to update todo tasks and change dates.
+* As User, I want to delete a todo tasks.
+* As User, I want to get inspirational comments.
